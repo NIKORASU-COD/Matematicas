@@ -1,0 +1,14 @@
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\bin\Debug\net9.0\Proyecto.exe
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\bin\Debug\net9.0\Proyecto.deps.json
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\bin\Debug\net9.0\Proyecto.runtimeconfig.json
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\bin\Debug\net9.0\Proyecto.dll
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\bin\Debug\net9.0\Proyecto.pdb
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.AssemblyInfoInputs.cache
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.AssemblyInfo.cs
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.dll
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\refint\Proyecto.dll
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.pdb
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.genruntimeconfig.cache
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\ref\Proyecto.dll
