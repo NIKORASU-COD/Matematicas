@@ -9,45 +9,64 @@ Console.WriteLine("\n- Finalmente el lado #3");
 double ladoC = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("\n-----------------------------");
 
+double anguloA = CalcularAngulo(ladoB , ladoC , ladoA);
+double anguloB = CalcularAngulo(ladoA , ladoC , ladoB);
+double anguloC = 180 - (anguloA + anguloB);
+double CalcularAngulo(double lado1, double lado2, double lado3)
+    {
+        return Math.Acos((Math.Pow(lado1, 2) + Math.Pow(lado2, 2) - Math.Pow(lado3, 2)) / (2 * lado1 * lado2)) * (180 / Math.PI);
+    }
 if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA)
 
     if (ladoA == ladoB && ladoB == ladoC)
     {
         Console.WriteLine("\nTu triangulito es Equilatero");
-    
-        Console.WriteLine("\n   /\\");
-        Console.WriteLine("  /  \\");
-        Console.WriteLine(" /    \\");
-        Console.WriteLine("/______\\");
+        Console.WriteLine("       /\\");
+        Console.WriteLine("      /  \\");
+        Console.WriteLine("     /____\\");
         Console.WriteLine($"\nPorque todos sus lados son iguales ( lado 1 = {ladoA}, lado 2 = {ladoB} y lado 3 = {ladoC} )");
+        Console.WriteLine($"el angulo 1 es:{anguloA} grados");
+        Console.WriteLine($"el angulo 2 es:{anguloB} grados");
+        Console.WriteLine($"el angulo 3 es:{anguloC} grados");
     }
 
         else if (ladoA != ladoB && ladoB == ladoC ||ladoB != ladoA && ladoA == ladoC || ladoC != ladoA && ladoA == ladoB)
         {
             Console.WriteLine("\nTu triangulito es Isosceles");
             Console.WriteLine("");
-            Console.WriteLine("   /\\");
-            Console.WriteLine("  /  \\");
-            Console.WriteLine(" /    \\");
-            Console.WriteLine("/______\\");
+            Console.WriteLine("       /\\");
+            Console.WriteLine("      /  \\");
+            Console.WriteLine("     /    \\");
+            Console.WriteLine("    /______\\");
             Console.WriteLine("");
+            Console.WriteLine($"el angulo 1 es:{anguloA} grados");
+            Console.WriteLine($"el angulo 2 es:{anguloB} grados");
+            Console.WriteLine($"el angulo 3 es:{anguloC} grados");
         }
 
         else if (ladoA != ladoB && ladoB != ladoC)
         {
             Console.WriteLine("\nTu triangulito es Escaleno");
+            Console.WriteLine("       /\\");
+            Console.WriteLine("      /   \\");
+            Console.WriteLine("     /_____\\");
             Console.WriteLine("");
-            Console.WriteLine("   /\\");
-            Console.WriteLine("  /  \\");
-            Console.WriteLine(" /    \\");
-            Console.WriteLine("/______\\");
-            Console.WriteLine("");
+            Console.WriteLine($"el angulo 1 es:{anguloA} grados");
+            Console.WriteLine($"el angulo 2 es:{anguloB} grados");
+            Console.WriteLine($"el angulo 3 es:{anguloC} grados");
         }
-    else{}
-
 else
 {
     Console.WriteLine("Los lados ingresados no forman un triangulo válido");
+}
+if(anguloA == 90 || anguloB == 90 || anguloC == 90){
+    Console.WriteLine("Tu triangulo es un trianulo rectangulo");
+}
+else if(anguloA < 90 && anguloB < 90 && anguloC  <90){
+    Console.WriteLine("Tu triangulo es un trianulo acutangulo");
+} 
+else if(anguloA > 90 || anguloB > 90 || anguloC > 90){
+    Console.WriteLine("Tu triangulo es un trianulo obtusangulo");
 }
 
 // double anguloA = 5;
