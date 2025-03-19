@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj": {}
+    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Matemáticas\\Proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj": {
+    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Matemáticas\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Matemáticas\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj",
+        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Matemáticas\\Proyecto.csproj",
         "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\obj\\",
+        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Matemáticas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config"
