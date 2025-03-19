@@ -42,3 +42,4 @@ C:\Users\VICTUS\Desktop\matematicas\obj\Debug\net9.0\refint\Proyecto.dll
 C:\Users\VICTUS\Desktop\matematicas\obj\Debug\net9.0\Proyecto.pdb
 C:\Users\VICTUS\Desktop\matematicas\obj\Debug\net9.0\Proyecto.genruntimeconfig.cache
 C:\Users\VICTUS\Desktop\matematicas\obj\Debug\net9.0\ref\Proyecto.dll
+C:\Users\Nicolas\OneDrive\Desktop\Proyecto\obj\Debug\net9.0\Proyecto.sourcelink.json

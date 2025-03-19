@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VICTUS\\Desktop\\matematicas\\Proyecto.csproj": {}
+    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VICTUS\\Desktop\\matematicas\\Proyecto.csproj": {
+    "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VICTUS\\Desktop\\matematicas\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "C:\\Users\\VICTUS\\Desktop\\matematicas\\Proyecto.csproj",
-        "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VICTUS\\Desktop\\matematicas\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\Proyecto.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Desktop\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
