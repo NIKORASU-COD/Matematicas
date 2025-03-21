@@ -20,54 +20,61 @@ if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA)
 
     if (ladoA == ladoB && ladoB == ladoC)
     {
-        Console.WriteLine("\nTu triangulito es Equilatero");
+        Console.WriteLine("\n--- Tu triangulito es Equilatero ---");
         Console.WriteLine("       /\\");
         Console.WriteLine("      /  \\");
         Console.WriteLine("     /____\\");
         Console.WriteLine($"\nPorque todos sus lados son iguales ( lado 1 = {ladoA}, lado 2 = {ladoB} y lado 3 = {ladoC} )");
-        Console.WriteLine($"el angulo 1 es:{anguloA:F2}°");
+        Console.WriteLine($"\nel angulo 1 es:{anguloA:F2}°");
         Console.WriteLine($"el angulo 2 es:{anguloB:F2}°");
         Console.WriteLine($"el angulo 3 es:{anguloC:F2}°");
     }
 
         else if (ladoA != ladoB && ladoB == ladoC ||ladoB != ladoA && ladoA == ladoC || ladoC != ladoA && ladoA == ladoB)
         {
-            Console.WriteLine("\nTu triangulito es Isosceles");
+            Console.WriteLine("\n--- Tu triangulito es Isosceles ---");
             Console.WriteLine("");
             Console.WriteLine("       /\\");
             Console.WriteLine("      /  \\");
             Console.WriteLine("     /    \\");
             Console.WriteLine("    /______\\");
-            Console.WriteLine("");
-            Console.WriteLine($"el angulo 1 es:{anguloA:F2}°");
+            Console.WriteLine($"\nPorque dos de sus lados son iguales ( lado 1 = {ladoA}, lado 2 = {ladoB} y lado 3 = {ladoC} )");
+            Console.WriteLine($"\nel angulo 1 es:{anguloA:F2}°");
             Console.WriteLine($"el angulo 3 es:{anguloC:F2}°");
             Console.WriteLine($"el angulo 2 es:{anguloB:F2}°");
         }
 
         else if (ladoA != ladoB && ladoB != ladoC)
         {
-            Console.WriteLine("\nTu triangulito es Escaleno");
-            Console.WriteLine("\n       /\\");
-            Console.WriteLine("      /  \\");
-            Console.WriteLine("     /____\\");
-            Console.WriteLine("");
-            Console.WriteLine($"el angulo 3 es:{anguloC:F2}°");
-            Console.WriteLine($"el angulo 1 es:{anguloA:F2}°");
+            Console.WriteLine("\n--- Tu triangulito es Escaleno ---");
+            
+        Console.WriteLine("\n|\\");
+            Console.WriteLine("| \\");
+            Console.WriteLine("|  \\");
+            Console.WriteLine("|   \\");
+            Console.WriteLine("|____\\");
+            Console.WriteLine($"\nPorque todos sus lados son diferentes ( lado 1 = {ladoA}, lado 2 = {ladoB} y lado 3 = {ladoC} )");
+            Console.WriteLine($"\nel angulo 1 es:{anguloA:F2}°");
             Console.WriteLine($"el angulo 2 es:{anguloB:F2}°");
+            Console.WriteLine($"el angulo 3 es:{anguloC:F2}°");
         }
+     else {Console.WriteLine("hola mundo");}    
+
 else
 {
     Console.WriteLine("Los lados ingresados no forman un triangulo válido");
 }
 if(anguloA == 90 || anguloB == 90 || anguloC == 90){
-    Console.WriteLine("Tu triangulo es un trianulo rectangulo");
+    Console.WriteLine("\n--- Tu triangulo es un triangulo rectangulo ---");
 }
 else if(anguloA < 90 && anguloB < 90 && anguloC  <90){
-    Console.WriteLine("Tu triangulo es un trianulo acutangulo");
+    Console.WriteLine("\n--- Tu triangulo es un triangulo acutangulo ---");
 } 
 else if(anguloA > 90 || anguloB > 90 || anguloC > 90){
-    Console.WriteLine("Tu triangulo es un trianulo obtusangulo");
+    Console.WriteLine("\n--- Tu triangulo es un triangulo obtusangulo ---");
 }
+
+Console.WriteLine("-----------------------------");
 
 // double anguloA = 5;
 // double anguloB = 5;
